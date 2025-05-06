@@ -11,9 +11,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true)
   const [currentTask, setCurrentTask] = useState(null)
 
-  const API_URL = import.meta.env.PROD
-    ? "/api/task" 
-    : "https://backend-zlnc.onrender.com/api/task" 
+  const API_URL = "https://backend-zlnc.onrender.com/api/task" ;
 
   useEffect(() => {
     fetchTasks()
