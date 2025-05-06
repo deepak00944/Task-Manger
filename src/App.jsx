@@ -13,7 +13,7 @@ function App() {
 
   const API_URL = import.meta.env.PROD
     ? "/api/task" 
-    : "https://task-manger-api-4f9e.onrender.com/api/task" 
+    : "https://backend-zlnc.onrender.com/api/task" 
 
   useEffect(() => {
     fetchTasks()
