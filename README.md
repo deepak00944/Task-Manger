@@ -1,12 +1,54 @@
-# React + Vite
+# 📝 Task Manager Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Task Manager web application that allows users to add, update, delete, and prioritize tasks. The backend is built using **Node.js**, **Express**, and **MongoDB**, while the frontend is built using **React (Vite)** and styled with **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Links
 
-## Expanding the ESLint configuration
+- **Frontend (Vercel)**: https://task-manger-frontend-eight.vercel.app/  
+- **Backend (Render)**: https://backend-zlnc.onrender.com/api/task
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🚀 Features
+
+- ✅ Add new tasks with title, description, and priority
+- 📝 Edit or update existing tasks
+- 🗑️ Delete tasks
+- 📌 Set task priority (High, Medium, Low)
+- 🔁 Tasks persist across refresh using MongoDB
+- ⚙️ Fully connected backend API with frontend
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React (Vite)
+- CSS
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- CORS
+
+---
+
+## 🧪 API Endpoints
+
+Base URL: `https://backend-zlnc.onrender.com/api/task`
+
+| Method | Endpoint             | Description           |
+|--------|----------------------|-----------------------|
+| GET    | `/getAll-task`       | Get all tasks         |
+| POST   | `/create-task`       | Create a new task     |
+| PUT    | `/update-task/:id`   | Update a task         |
+| DELETE | `/delete-task/:id`   | Delete a task         |
+
+---
+
+
